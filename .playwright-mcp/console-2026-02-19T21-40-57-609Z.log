@@ -1,0 +1,836 @@
+[     218ms] [ERROR] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+          <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+                  <SegmentViewNode type="page" pagePath="page.tsx">
+                    <SegmentTrieNode>
+                    <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+                      <Home params={Promise} searchParams={Promise}>
+                        <div className="relative m...">
+                          <MatrixRain>
+                          <SparkleEffect count={30} color="#a855f7">
+                            <div className={"pointer-..."} aria-hidden="true">
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "11.723571060708194%"
+-                                 top: "87.5837%"
++                                 left: "24.19634437564624%"
+-                                 left: "42.426%"
++                                 width: 2.6464055342079056
+-                                 width: "3.01059px"
++                                 height: 2.6464055342079056
+-                                 height: "3.01059px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "1.9143957079250984s"
++                                 animationDuration: "1.811182574392948s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "2.03749s"
+-                                 animation-duration: "2.1844s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "87.57373866827601%"
+-                                 top: "97.7231%"
++                                 left: "50.035947224384216%"
+-                                 left: "35.3328%"
++                                 width: 2.963579406105276
+-                                 width: "2.07743px"
++                                 height: 2.963579406105276
+-                                 height: "2.07743px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "1.2161780302113328s"
++                                 animationDuration: "2.949757805411493s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "0.90073s"
+-                                 animation-duration: "2.06745s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "90.12603569085591%"
+-                                 top: "84.0144%"
++                                 left: "77.72008879960308%"
+-                                 left: "85.1674%"
++                                 width: 1.8196192974194827
+-                                 width: "1.3173px"
++                                 height: 1.8196192974194827
+-                                 height: "1.3173px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "1.3999285579763256s"
++                                 animationDuration: "2.1803595474444215s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "0.676447s"
+-                                 animation-duration: "3.31402s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "3.1894210575939996%"
+-                                 top: "12.3271%"
++                                 left: "24.160579025427843%"
+-                                 left: "76.9825%"
++                                 width: 2.8815692815114886
+-                                 width: "3.18684px"
++                                 height: 2.8815692815114886
+-                                 height: "3.18684px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "1.270438301149055s"
++                                 animationDuration: "3.140186550182713s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "0.760363s"
+-                                 animation-duration: "2.63613s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "67.08143008469537%"
+-                                 top: "48.18%"
++                                 left: "10.303631423337068%"
+-                                 left: "1.37342%"
++                                 width: 3.0561836652060967
+-                                 width: "2.50324px"
++                                 height: 3.0561836652060967
+-                                 height: "2.50324px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "2.9019318593414343s"
++                                 animationDuration: "1.6715865779659904s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "0.119737s"
+-                                 animation-duration: "2.71034s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "88.1212841345898%"
+-                                 top: "73.5699%"
++                                 left: "11.415090474489297%"
+-                                 left: "38.6532%"
++                                 width: 3.152950094960074
+-                                 width: "2.85015px"
++                                 height: 3.152950094960074
+-                                 height: "2.85015px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "2.137457063646541s"
++                                 animationDuration: "2.314603784735858s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "0.536592s"
+-                                 animation-duration: "2.2976s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "98.59125937889%"
+-                                 top: "96.1033%"
++                                 left: "96.94507886606326%"
+-                                 left: "54.7477%"
++                                 width: 2.1397720350047837
+-                                 width: "2.92416px"
++                                 height: 2.1397720350047837
+-                                 height: "2.92416px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "0.7626274489007776s"
++                                 animationDuration: "1.8545170330313276s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "2.38389s"
+-                                 animation-duration: "3.05966s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "77.36261665096072%"
+-                                 top: "69.6138%"
++                                 left: "93.22257442345753%"
+-                                 left: "12.9044%"
++                                 width: 1.9034480106831668
+-                                 width: "2.35656px"
++                                 height: 1.9034480106831668
+-                                 height: "2.35656px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "1.2544813457619632s"
++                                 animationDuration: "2.746859675640347s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "1.24908s"
+-                                 animation-duration: "2.39818s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "63.76372059745384%"
+-                                 top: "6.28495%"
++                                 left: "27.38833076043473%"
+-                                 left: "99.4127%"
++                                 width: 1.1515966737042982
+-                                 width: "3.136px"
++                                 height: 1.1515966737042982
+-                                 height: "3.136px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "1.0997987807689475s"
++                                 animationDuration: "3.0848602073194935s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "1.18035s"
+-                                 animation-duration: "2.33728s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "71.84144681106278%"
+-                                 top: "8.26247%"
++                                 left: "35.18329351127096%"
+-                                 left: "85.8559%"
++                                 width: 3.4005584066491643
+-                                 width: "1.82114px"
++                                 height: 3.4005584066491643
+-                                 height: "1.82114px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "1.7478395616440272s"
++                                 animationDuration: "2.065180659341187s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "1.45611s"
+-                                 animation-duration: "2.9477s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "58.89597104910328%"
+-                                 top: "12.2931%"
++                                 left: "1.4844802509326516%"
+-                                 left: "84.1702%"
++                                 width: 2.989802751776952
+-                                 width: "2.4025px"
++                                 height: 2.989802751776952
+-                                 height: "2.4025px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "2.6221351908194546s"
++                                 animationDuration: "1.88049269164097s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "2.90329s"
+-                                 animation-duration: "1.82219s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "62.62622243376027%"
+-                                 top: "34.8028%"
++                                 left: "75.91257303267655%"
+-                                 left: "81.6623%"
++                                 width: 1.720042007178008
+-                                 width: "3.45525px"
++                                 height: 1.720042007178008
+-                                 height: "3.45525px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "1.3695495426695659s"
++                                 animationDuration: "2.0622756744725614s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "1.84203s"
+-                                 animation-duration: "2.68972s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "50.63640109552182%"
+-                                 top: "80.825%"
++                                 left: "30.557239943747515%"
+-                                 left: "46.735%"
++                                 width: 2.8221421743640573
+-                                 width: "2.16753px"
++                                 height: 2.8221421743640573
+-                                 height: "2.16753px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "1.6709655304613342s"
++                                 animationDuration: "3.2922773201139606s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "2.41192s"
+-                                 animation-duration: "2.165s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "52.72751674651852%"
+-                                 top: "82.9526%"
++                                 left: "15.332770611436331%"
+-                                 left: "56.723%"
++                                 width: 3.675358379222433
+-                                 width: "3.33459px"
++                                 height: 3.675358379222433
+-                                 height: "3.33459px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "1.8580593013032507s"
++                                 animationDuration: "1.7388171295901895s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "1.81975s"
+-                                 animation-duration: "2.31139s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "44.50142616195881%"
+-                                 top: "62.4854%"
++                                 left: "86.77796689378579%"
+-                                 left: "28.5987%"
++                                 width: 3.5946729125465797
+-                                 width: "3.13612px"
++                                 height: 3.5946729125465797
+-                                 height: "3.13612px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "2.495420300667294s"
++                                 animationDuration: "3.09964465237008s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "2.29821s"
+-                                 animation-duration: "1.77357s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "60.24518253260123%"
+-                                 top: "47.4233%"
++                                 left: "97.72496562433253%"
+-                                 left: "5.05937%"
++                                 width: 3.83652702417579
+-                                 width: "3.17657px"
++                                 height: 3.83652702417579
+-                                 height: "3.17657px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "2.9368712118449776s"
++                                 animationDuration: "3.010746325775343s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "0.906696s"
+-                                 animation-duration: "1.73624s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "54.9620120813574%"
+-                                 top: "10.3732%"
++                                 left: "21.180016297734415%"
+-                                 left: "15.1947%"
++                                 width: 3.656931772682752
+-                                 width: "3.69925px"
++                                 height: 3.656931772682752
+-                                 height: "3.69925px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "2.2316819177007265s"
++                                 animationDuration: "3.3092107586636343s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "2.2931s"
+-                                 animation-duration: "2.39713s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "77.06365122356695%"
+-                                 top: "53.6861%"
++                                 left: "36.36119938987197%"
+-                                 left: "82.5583%"
++                                 width: 3.8100865147371503
+-                                 width: "3.48653px"
++                                 height: 3.8100865147371503
+-                                 height: "3.48653px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "1.8646213104792944s"
++                                 animationDuration: "2.616720408786181s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "2.9875s"
+-                                 animation-duration: "1.84304s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "15.923354259709487%"
+-                                 top: "25.279%"
++                                 left: "96.30787799646048%"
+-                                 left: "50.9735%"
++                                 width: 2.419934367574407
+-                                 width: "2.24143px"
++                                 height: 2.419934367574407
+-                                 height: "2.24143px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "0.011125984411005319s"
++                                 animationDuration: "1.8563209444238737s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "0.79589s"
+-                                 animation-duration: "3.45385s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "98.18360631157779%"
+-                                 top: "93.9206%"
++                                 left: "15.259000295504531%"
+-                                 left: "95.6832%"
++                                 width: 3.094874160575557
+-                                 width: "1.57358px"
++                                 height: 3.094874160575557
+-                                 height: "1.57358px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "1.9331890622121537s"
++                                 animationDuration: "3.216816224633722s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "1.43802s"
+-                                 animation-duration: "3.00094s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "3.287141833605678%"
+-                                 top: "92.3441%"
++                                 left: "62.160473944080685%"
+-                                 left: "70.8571%"
++                                 width: 2.755352024731868
+-                                 width: "2.87383px"
++                                 height: 2.755352024731868
+-                                 height: "2.87383px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "1.4884992358639284s"
++                                 animationDuration: "2.94710688293084s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "0.525098s"
+-                                 animation-duration: "3.32816s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "69.14274072097771%"
+-                                 top: "44.9469%"
++                                 left: "78.68330256802591%"
+-                                 left: "6.09177%"
++                                 width: 3.976209914605975
+-                                 width: "3.84135px"
++                                 height: 3.976209914605975
+-                                 height: "3.84135px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "2.0385734306466636s"
++                                 animationDuration: "2.589202784488897s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "1.20615s"
+-                                 animation-duration: "3.16139s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "37.17244277727898%"
+-                                 top: "20.9233%"
++                                 left: "42.90203649276263%"
+-                                 left: "65.1291%"
++                                 width: 2.451023012562036
+-                                 width: "2.624px"
++                                 height: 2.451023012562036
+-                                 height: "2.624px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "1.2598927982205765s"
++                                 animationDuration: "2.61278590722602s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "0.403815s"
+-                                 animation-duration: "2.71439s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "7.944368639144416%"
+-                                 top: "41.4776%"
++                                 left: "9.925921426903816%"
+-                                 left: "70.8195%"
++                                 width: 3.1047813796522785
+-                                 width: "2.51467px"
++                                 height: 3.1047813796522785
+-                                 height: "2.51467px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "2.2084432368291766s"
++                                 animationDuration: "2.802568761537014s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "0.125048s"
+-                                 animation-duration: "2.82997s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "94.39457243425423%"
+-                                 top: "6.4219%"
++                                 left: "2.3908286112938493%"
+-                                 left: "92.3522%"
++                                 width: 3.481535285807049
+-                                 width: "1.02513px"
++                                 height: 3.481535285807049
+-                                 height: "1.02513px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "1.7317184654527187s"
++                                 animationDuration: "2.6859892082196986s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "1.11778s"
+-                                 animation-duration: "2.51771s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "20.170878614335596%"
+-                                 top: "5.741%"
++                                 left: "34.10867138184843%"
+-                                 left: "11.2542%"
++                                 width: 1.1070523870026197
+-                                 width: "1.11435px"
++                                 height: 1.1070523870026197
+-                                 height: "1.11435px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "1.6949948508025385s"
++                                 animationDuration: "2.096782143569677s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "1.71833s"
+-                                 animation-duration: "1.83673s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "72.83050989698484%"
+-                                 top: "1.76056%"
++                                 left: "42.59679322759404%"
+-                                 left: "86.1998%"
++                                 width: 3.624921406405736
+-                                 width: "1.41529px"
++                                 height: 3.624921406405736
+-                                 height: "1.41529px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "1.975861891669551s"
++                                 animationDuration: "1.5976365319451307s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "1.48907s"
+-                                 animation-duration: "2.66742s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "49.83659001541392%"
+-                                 top: "49.3349%"
++                                 left: "20.211687691308256%"
+-                                 left: "32.3148%"
++                                 width: 3.9466271575495435
+-                                 width: "1.20102px"
++                                 height: 3.9466271575495435
+-                                 height: "1.20102px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "2.8140156823424447s"
++                                 animationDuration: "3.069713305497891s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "1.3589s"
+-                                 animation-duration: "2.77453s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "52.86167183234708%"
+-                                 top: "35.8818%"
++                                 left: "22.485476875069864%"
+-                                 left: "13.9263%"
++                                 width: 2.6793711814884356
+-                                 width: "1.88951px"
++                                 height: 2.6793711814884356
+-                                 height: "1.88951px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "1.786391748153672s"
++                                 animationDuration: "2.9910523538968796s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "2.02866s"
+-                                 animation-duration: "3.24005s"
+                                }}
+                              >
+                              <span
+                                className="sparkle-anim absolute rounded-full"
+                                style={{
++                                 top: "56.13463636421532%"
+-                                 top: "96.5244%"
++                                 left: "3.2847617201777424%"
+-                                 left: "84.653%"
++                                 width: 3.274961628183215
+-                                 width: "1.12495px"
++                                 height: 3.274961628183215
+-                                 height: "1.12495px"
++                                 backgroundColor: "#a855f7"
++                                 animationDelay: "1.216603805094655s"
++                                 animationDuration: "2.92044691765183s"
+-                                 background-color: "rgb(168, 85, 247)"
+-                                 animation-delay: "2.85593s"
+-                                 animation-duration: "2.17843s"
+                                }}
+                              >
+                          ...
+                            <div className="relative f..." style={{opacity:0, ...}} ...>
+                              <div>
+                              <div>
+                              <canvas>
+                              <canvas>
+                              <div className="absolute i...">
+                                <span
+                                  className="absolute rounded-full sparkle-anim"
+                                  style={{
++                                   width: 2.428745757413108
+-                                   width: "3.94853px"
++                                   height: 4.483353978366285
+-                                   height: "3.21294px"
++                                   top: "83.55351671527004%"
+-                                   top: "63.874%"
++                                   left: "68.09358189129284%"
+-                                   left: "49.6601%"
++                                   backgroundColor: "#22c55e"
++                                   animationDelay: "1.7980670306790114s"
++                                   animationDuration: "3.3275109069917654s"
+-                                   background-color: "rgb(168, 85, 247)"
+-                                   animation-delay: "3.23925s"
+-                                   animation-duration: "2.22682s"
+                                  }}
+                                >
+                                <span
+                                  className="absolute rounded-full sparkle-anim"
+                                  style={{
++                                   width: 4.47848857848152
+-                                   width: "4.28068px"
++                                   height: 3.727606019692319
+-                                   height: "4.32184px"
++                                   top: "79.99934320059693%"
+-                                   top: "54.5694%"
++                                   left: "15.146539067541998%"
+-                                   left: "29.4842%"
++                                   backgroundColor: "#22c55e"
++                                   animationDelay: "3.626774511828188s"
++                                   animationDuration: "3.36835850433943s"
+-                                   background-color: "rgb(34, 197, 94)"
+-                                   animation-delay: "1.68214s"
+-                                   animation-duration: "3.88087s"
+                                  }}
+                                >
+                                <span
+                                  className="absolute rounded-full sparkle-anim"
+                                  style={{
++                                   width: 3.381401550966598
+-                                   width: "4.6758px"
++                                   height: 3.5875448921104534
+-                                   height: "4.2927px"
++                                   top: "53.922438774372395%"
+-                                   top: "39.5474%"
++                                   left: "17.25886410998994%"
+-                                   left: "12.2419%"
++                                   backgroundColor: "#22c55e"
++                                   animationDelay: "2.632144622097995s"
++                                   animationDuration: "2.70862318129643s"
+-                                   background-color: "rgb(34, 197, 94)"
+-                                   animation-delay: "2.51028s"
+-                                   animation-duration: "2.04706s"
+                                  }}
+                                >
+                                <span
+                                  className="absolute rounded-full sparkle-anim"
+                                  style={{
++                                   width: 4.326843114656956
+-                                   width: "3.38434px"
++                                   height: 3.8285151043474164
+-                                   height: "4.37897px"
++                                   top: "21.798921214626095%"
+-                                   top: "23.4946%"
++                                   left: "55.07609361761345%"
+-                                   left: "32.0984%"
++                                   backgroundColor: "#a855f7"
++                                   animationDelay: "2.505603519027264s"
++                                   animationDuration: "3.7741005674048687s"
+-                                   background-color: "rgb(168, 85, 247)"
+-                                   animation-delay: "1.7382s"
+-                                   animation-duration: "3.30559s"
+                                  }}
+                                >
+                                <span
+                                  className="absolute rounded-full sparkle-anim"
+                                  style={{
++                                   width: 3.389314538282626
+-                                   width: "2.0627px"
++                                   height: 2.048214115700432
+-                                   height: "4.69736px"
++                                   top: "71.58838125091802%"
+-                                   top: "41.313%"
++                                   left: "26.51917533533546%"
+-                                   left: "79.4812%"
++                                   backgroundColor: "#a855f7"
++                                   animationDelay: "0.5885036504691405s"
++                                   animationDuration: "2.0789844103948893s"
+-                                   background-color: "rgb(34, 197, 94)"
+-                                   animation-delay: "0.650932s"
+-                                   animation-duration: "3.65985s"
+                                  }}
+                                >
+                                <span
+                                  className="absolute rounded-full sparkle-anim"
+                                  style={{
++                                   width: 3.409735480138993
+-                                   width: "3.70902px"
++                                   height: 2.6895327079316638
+-                                   height: "2.15176px"
++                                   top: "26.11001554902158%"
+-                                   top: "48.9975%"
++                                   left: "79.06245368268554%"
+-                                   left: "45.3595%"
++                                   backgroundColor: "#22c55e"
++                                   animationDelay: "3.753394782054394s"
++                                   animationDuration: "2.0540696347889833s"
+-                                   background-color: "rgb(34, 197, 94)"
+-                                   animation-delay: "0.729522s"
+-                                   animation-duration: "3.41667s"
+                                  }}
+                                >
+                                <span
+                                  className="absolute rounded-full sparkle-anim"
+                                  style={{
++                                   width: 4.980764302915139
+-                                   width: "3.12037px"
++                                   height: 2.405681941311592
+-                                   height: "2.95497px"
++                                   top: "71.32111233955473%"
+-                                   top: "60.4195%"
++                                   left: "38.672063561985475%"
+-                                   left: "27.367%"
++                                   backgroundColor: "#22c55e"
++                                   animationDelay: "1.1358392461626101s"
++                                   animationDuration: "2.6386552084935513s"
+-                                   background-color: "rgb(34, 197, 94)"
+-                                   animation-delay: "0.175382s"
+-                                   animation-duration: "2.45661s"
+                                  }}
+                                >
+                                <span
+                                  className="absolute rounded-full sparkle-anim"
+                                  style={{
++                                   width: 3.39842525481977
+-                                   width: "3.52482px"
++                                   height: 3.362172207112941
+-                                   height: "2.86082px"
++                                   top: "28.98736714785042%"
+-                                   top: "33.441%"
++                                   left: "89.72691794552532%"
+-                                   left: "16.3156%"
++                                   backgroundColor: "#22c55e"
++                                   animationDelay: "3.460397860328348s"
++                                   animationDuration: "2.439020292934329s"
+-                                   background-color: "rgb(168, 85, 247)"
+-                                   animation-delay: "1.86908s"
+-                                   animation-duration: "3.85605s"
+                                  }}
+                                >
+                                <span
+                                  className="absolute rounded-full sparkle-anim"
+                                  style={{
++                                   width: 2.4527288805531793
+-                                   width: "3.78329px"
++                                   height: 4.911247148194493
+-                                   height: "3.39579px"
++                                   top: "79.99796222314464%"
+-                                   top: "26.4575%"
++                                   left: "39.8654622108441%"
+-                                   left: "61.5568%"
++                                   backgroundColor: "#22c55e"
++                                   animationDelay: "2.1069045658032515s"
++                                   animationDuration: "3.080450760285867s"
+-                                   background-color: "rgb(34, 197, 94)"
+-                                   animation-delay: "1.34801s"
+-                                   animation-duration: "3.39461s"
+                                  }}
+                                >
+                                <span
+                                  className="absolute rounded-full sparkle-anim"
+                                  style={{
++                                   width: 3.6497407431026976
+-                                   width: "4.64226px"
++                                   height: 4.353671393457155
+-                                   height: "2.44597px"
++                                   top: "25.78400590682208%"
+-                                   top: "45.1314%"
++                                   left: "56.791886535406604%"
+-                                   left: "61.7305%"
++                                   backgroundColor: "#a855f7"
++                                   animationDelay: "2.720599046687649s"
++                                   animationDuration: "2.1692150304899824s"
+-                                   background-color: "rgb(34, 197, 94)"
+-                                   animation-delay: "3.31854s"
+-                                   animation-duration: "2.60389s"
+                                  }}
+                                >
+                                <span
+                                  className="absolute rounded-full sparkle-anim"
+                                  style={{
++                                   width: 2.678918982382558
+-                                   width: "3.63901px"
++                                   height: 4.064593022652381
+-                                   height: "4.97405px"
++                                   top: "69.35841887427884%"
+-                                   top: "73.6523%"
++                                   left: "51.457009656380286%"
+-                                   left: "22.9244%"
++                                   backgroundColor: "#a855f7"
++                                   animationDelay: "0.12691195157231538s"
++                                   animationDuration: "2.9093846304985282s"
+-                                   background-color: "rgb(168, 85, 247)"
+-                                   animation-delay: "3.13164s"
+-                                   animation-duration: "3.78419s"
+                                  }}
+                                >
+                                <span
+                                  className="absolute rounded-full sparkle-anim"
+                                  style={{
++                                   width: 4.222604880877752
+-                                   width: "4.18148px"
++                                   height: 3.879399416616239
+-                                   height: "2.22516px"
++                                   top: "45.90335541671764%"
+-                                   top: "78.9073%"
++                                   left: "18.603751406178723%"
+-                                   left: "84.0063%"
++                                   backgroundColor: "#a855f7"
++                                   animationDelay: "2.962058456835249s"
++                                   animationDuration: "3.858982000367166s"
+-                                   background-color: "rgb(168, 85, 247)"
+-                                   animation-delay: "3.62944s"
+-                                   animation-duration: "2.23568s"
+                                  }}
+                                >
+                  ...
+                ...
+ @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
